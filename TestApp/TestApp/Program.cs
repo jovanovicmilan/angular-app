@@ -15,7 +15,7 @@ namespace TestApp
         {
             CreateHostBuilder(args).Build().Run();
         }
-        
+        //NEKI KOMENTAR
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
